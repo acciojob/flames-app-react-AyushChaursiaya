@@ -40,19 +40,21 @@ const FlamesApp = () => {
     const clear = () => {
         setName1('');
         setName2('');
-        setRelation('')
+        setRelation('');
     }
 
     return (
         <div style={{ margin: 100 }}>
             <input
                 value={name1}
+                name="name1"
                 onChange={(e) => setName1(e.target.value)}
                 placeholder="Enter first name"
                 data-testid="input1"
             />
             <input
                 value={name2}
+                name="name2"
                 onChange={(e) => setName2(e.target.value)}
                 placeholder="Enter second name"
                 data-testid="input2"
