@@ -1,5 +1,5 @@
 import '../styles/App.css';
-import { useState } from "react";
+import React, { useState } from "react";
 
 
 const relations = ["Siblings", "Friends", "Love", "Affection", "Marriage", "Enemy"]
