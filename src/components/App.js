@@ -48,7 +48,7 @@ const FlamesApp = () => {
         <div style={{ margin: 100 }}>
             <input
                 value={name1}
-                
+                name="name1"
                 onChange={(e) => setName1(e.target.value)}
                 placeholder="Enter first name"
                 data-testid="input1"
