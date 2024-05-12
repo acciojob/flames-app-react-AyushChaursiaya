@@ -68,7 +68,7 @@ const FlamesApp = () => {
                 onClick={clear}
                 data-testid="clear"
             >Clear</button>
-            {relation && <h3 data-testid="answer">{relation}</h3>}
+            <h3 data-testid="answer">{relation}</h3>
         </div>
     );
 }
